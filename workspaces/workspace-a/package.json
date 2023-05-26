@@ -1,5 +1,5 @@
 {
-  "name": "@bootstrap/workspace-a",
+  "name": "@template/workspace-a",
   "version": "1.0.0",
   "license": "Proprietary",
   "main": "dist/index.js",
