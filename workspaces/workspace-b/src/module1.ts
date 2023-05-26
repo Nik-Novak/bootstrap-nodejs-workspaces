@@ -1,5 +1,5 @@
 import { config } from 'node-config-ts';
-import { someFunctionA } from '@bootstrap/workspace-a'
+import { someFunctionA } from '@template/workspace-a'
 
 export function someFunctionB(){
   someFunctionA();
