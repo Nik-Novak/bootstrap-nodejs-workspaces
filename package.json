@@ -6,7 +6,7 @@
     "workspaces/*"
   ],
   "scripts": {
-    "watch": "nodemon --ext ts,js,mjs,json --exec yarn workspaces foreach run compile"
+    "watch": "nodemon --ignore '*/dist/*' --ext ts,js,mjs,json --exec yarn workspaces foreach run compile"
   },
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
