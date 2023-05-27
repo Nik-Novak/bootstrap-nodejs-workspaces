@@ -2,8 +2,14 @@
   "name": "template",
   "version": "1.0.0",
   "license": "Proprietary",
-  "private":"true",
-  "workspaces": ["workspaces/*"],
-  "devDependencies": {},
-  "dependencies": {}
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "scripts": {
+    "watch": "nodemon --ext ts,js,mjs,json --exec yarn workspaces foreach run compile"
+  },
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
